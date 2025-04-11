@@ -210,7 +210,7 @@ while True:
                 postOnPageNumber = 0 #index
             #page loop
             displayPost(pageArray[postOnPageNumber])
-            print("OPTIONS: Save Current Post [s]   CURRENT:Page " + str(pageNumber) + " Post " + str(postOnPageNumber) + " of " + str(len(pageArray) - 1))
+            print("CURRENT:Page " + str(pageNumber) + " Post " + str(postOnPageNumber) + " of " + str(len(pageArray) - 1))  #OPTIONS: Save Current Post [s]   <<<< NOT CURRENTLY IMPLEMENTED
             print("Previous Page [q] Next Page [e] Spicific Page [PG<number>]")
             print("Previous Post [a] Next Post [d] Spicific Post [PN<number>]")
 
